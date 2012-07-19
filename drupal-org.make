@@ -17,6 +17,8 @@ projects[og][version] = "2.0-beta1"
 projects[og][subdir] = "contrib"
 projects[og_views][version] = "1.0"
 projects[og_views][subdir] = "contrib"
+projects[og_theme][version] = "1.0"
+projects[og_theme][subdir] = "contrib"
 projects[purl][version] = "1.0-beta1"
 projects[purl][subdir] = "contrib"
 projects[spaces][version] = "3.x-dev"
@@ -155,3 +157,5 @@ libraries[ckeditor][destination] = "libraries"
 ; Patches
 ; Spaces patch to account for og 2.x module
 projects[spaces][patch][] = "http://drupal.org/files/spaces-port_spaces_og_to_og_2-1668636-4.patch"
+; Account for OG 2.x branch
+projects[og_theme][patch][] = "http://drupal.org/files/og_theme-7x2x_compatibility-eojthebrave.patch"

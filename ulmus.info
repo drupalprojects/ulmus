@@ -80,6 +80,7 @@ dependencies[] = og_access
 dependencies[] = og_context
 dependencies[] = og_ui
 dependencies[] = og_views
+dependencies[] = og_theme
 ; Development
 dependencies[] = profiler_builder
 dependencies[] = devel
