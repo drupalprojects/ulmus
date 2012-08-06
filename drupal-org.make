@@ -156,6 +156,4 @@ libraries[ckeditor][destination] = "libraries"
 
 ; Patches
 ; Spaces patch to account for og 2.x module
-projects[spaces][patch][] = "http://drupal.org/files/spaces-port_spaces_og_to_og_2-1668636-4.patch"
-; Account for OG 2.x branch
-projects[og_theme][patch][] = "http://drupal.org/files/og_theme-7x2x_compatibility-eojthebrave.patch"
+projects[spaces][patch][] = "http://drupal.org/files/1470434-6-og-7_2x.patch"
