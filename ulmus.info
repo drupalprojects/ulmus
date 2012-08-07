@@ -80,6 +80,7 @@ dependencies[] = og_access
 dependencies[] = og_context
 dependencies[] = og_ui
 dependencies[] = og_views
+dependencies[] = og_extras
 dependencies[] = og_theme
 ; Development
 dependencies[] = profiler_builder
@@ -96,11 +97,6 @@ dependencies[] = uuid
 dependencies[] = views_bulk_operations
 dependencies[] = views_ui
 dependencies[] = views
-; Workflow
-dependencies[] = workflow
-dependencies[] = workflow_admin_ui
-dependencies[] = workflow_views
-dependencies[] = workflow_purl
 ; Node form columns
 dependencies[] = nodeformcols
 ; Features
@@ -115,7 +111,6 @@ dependencies[] = entity
 dependencies[] = entity_token
 dependencies[] = job_scheduler
 dependencies[] = libraries
-dependencies[] = model
 dependencies[] = module_filter
 dependencies[] = options_element
 dependencies[] = stringoverrides
