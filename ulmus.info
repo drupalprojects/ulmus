@@ -101,6 +101,10 @@ dependencies[] = views
 dependencies[] = nodeformcols
 ; Features
 dependencies[] = features
+; Outline Designer
+dependencies[] = outline_designer
+dependencies[] = outline_designer_og
+dependencies[] = outline_designer_book
 ; Other
 dependencies[] = strongarm
 dependencies[] = masquerade
@@ -121,3 +125,4 @@ dependencies[] = auto_nodetitle
 dependencies[] = prepopulate
 dependencies[] = tipsy
 dependencies[] = purl
+dependencies[] = entityreference_prepopulate
