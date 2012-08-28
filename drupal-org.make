@@ -2,6 +2,8 @@
 core = 7.x
 api = 2
 
+; copy everything below this line into your install profile
+; Ulmus core taken from ulmus install profile base
 ; OG/features/context/spaces core and associated projects
 projects[context][version] = "3.0-beta4"
 projects[context][subdir] = "contrib"
@@ -27,7 +29,7 @@ projects[spaces][version] = "3.0-alpha1"
 projects[spaces][subdir] = "contrib"
 projects[spaces_theme][version] = "1.0-alpha1"
 projects[spaces_theme][subdir] = "contrib"
-projects[views][version] = "3.3"
+projects[views][version] = "3.5"
 projects[views][subdir] = "contrib"
 projects[views_data_export][version] = "3.0-beta6"
 projects[views_data_export][subdir] = "contrib"
@@ -35,6 +37,8 @@ projects[views_data_export][subdir] = "contrib"
 ; Development best practices / addition required modules
 projects[devel][version] = "1.3"
 projects[devel][subdir] = "contrib"
+projects[diff][version] = "2.0"
+projects[diff][subdir] = "contrib"
 projects[profiler_builder][version] = "1.x-dev"
 projects[profiler_builder][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc3"
@@ -79,24 +83,33 @@ projects[entityreference_prepopulate][subdir] = "contrib"
 ; UX projects to refine and manage UX above drupal
 projects[auto_nodetitle][version] = "1.0"
 projects[auto_nodetitle][subdir] = "contrib"
+projects[book_title_override][version] = "1.0-beta4"
+projects[book_title_override][subdir] = "contrib"
+projects[boxes][version] = "1.0"
+projects[boxes][subdir] = "contrib"
 projects[ckeditor_link][version] = "2.2"
 projects[ckeditor_link][subdir] = "contrib"
+projects[delta][version] = "3.0-beta11"
+projects[delta][subdir] = "contrib"
+projects[hidden_nodes][version] = "1.x-dev"
+projects[hidden_nodes][subdir] = "contrib"
 projects[nodeformcols][version] = "1.x-dev"
 projects[nodeformcols][subdir] = "contrib"
-projects[regions][version] = "1.0"
+projects[regions][version] = "1.1"
 projects[regions][subdir] = "contrib"
+projects[tinynav][version] = "1.0-alpha1"
+projects[tinynav][subdir] = "contrib"
 projects[tipsy][version] = "1.0-rc1"
 projects[tipsy][subdir] = "contrib"
 projects[omega_tools][version] = "3.0-rc4"
 projects[omega_tools][subdir] = "contrib"
-projects[delta][version] = "3.0-beta11"
-projects[delta][subdir] = "contrib"
 projects[outline_designer][version] = "2.x-dev"
 projects[outline_designer][subdir] = "contrib"
 projects[wysiwyg][version] = "2.1"
 projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg_template][version] = "2.6"
+projects[wysiwyg_template][version] = "2.7"
 projects[wysiwyg_template][subdir] = "contrib"
+
 
 ; Field / Common content enablers for content types / entities
 projects[field_group][version] = "1.1"
@@ -142,6 +155,14 @@ projects[tao][subdir] = "contrib"
 projects[omega][version] = "3.1"
 projects[omega][type] = "theme"
 projects[omega][subdir] = "contrib"
+
+projects[respond][version] = "3.0-beta1"
+projects[respond][type] = "theme"
+projects[respond][subdir] = "contrib"
+
+projects[chamfer][version] = "1.0-beta1"
+projects[chamfer][type] = "theme"
+projects[chamfer][subdir] = "contrib"
 
 ; Libraries
 libraries[ckeditor][download][type] = "get"
