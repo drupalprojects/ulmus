@@ -128,6 +128,5 @@ dependencies[] = purl
 dependencies[] = entityreference_prepopulate
 dependencies[] = diff
 dependencies[] = hidden_nodes
-dependencies[] = tinynav
 dependencies[] = book_title_override
 dependencies[] = boxes
