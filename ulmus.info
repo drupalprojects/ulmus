@@ -130,3 +130,12 @@ dependencies[] = diff
 dependencies[] = hidden_nodes
 dependencies[] = book_title_override
 dependencies[] = boxes
+; Media
+dependencies[] = imce
+dependencies[] = imce_crop
+; User interface
+dependencies[] = imce_wysiwyg
+; Textbook
+dependencies[] = textbook
+dependencies[] = textbook_editor
+dependencies[] = textbook_templates
