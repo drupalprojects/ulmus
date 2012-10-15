@@ -182,4 +182,4 @@ libraries[ckeditor][destination] = "libraries"
 
 ; Patches
 ; Spaces patch to account for og 2.x module
- projects[spaces][patch][] = "http://drupal.org/files/1470434-19-og-7_2x.patch"
+; projects[spaces][patch][] = "http://drupal.org/files/1470434-19-og-7_2x.patch"
