@@ -33,26 +33,30 @@ dependencies[] = menu
 dependencies[] = node
 dependencies[] = options
 dependencies[] = overlay
-dependencies[] = search
-dependencies[] = syslog
+dependencies[] = taxonomy
 dependencies[] = system
 dependencies[] = text
 dependencies[] = update
 dependencies[] = user
 ; Entity
 dependencies[] = replicate
+; Date/Time
+dependencies[] = date
+dependencies[] = date_api
 ; Fields
+dependencies[] = field_group
+dependencies[] = link
+dependencies[] = select_or_other
 dependencies[] = entityreference
 dependencies[] = entityreference_prepopulate
 ; Input filters
 dependencies[] = typogrify
 dependencies[] = video_filter
-; Jammer
-dependencies[] = jammer
 ; Learning Tools Interoperability
 dependencies[] = lti_tool_provider
 dependencies[] = lti_tool_provider_og
 ; Media
+dependencies[] = plup
 dependencies[] = imce
 dependencies[] = imce_crop
 dependencies[] = imce_mkdir
@@ -60,10 +64,17 @@ dependencies[] = imce_mkdir
 dependencies[] = nodeformcols
 ; Organic groups
 dependencies[] = og
+dependencies[] = og_access
 dependencies[] = og_clone
 dependencies[] = og_context
 dependencies[] = og_ui
+; Image
+dependencies[] = smartcrop
 ; Other
+dependencies[] = entity_token
+dependencies[] = imagefield_crop
+dependencies[] = jquery_colorpicker
+dependencies[] = unique_field
 dependencies[] = better_formats
 dependencies[] = boxes
 dependencies[] = clone
@@ -76,6 +87,7 @@ dependencies[] = masquerade
 dependencies[] = module_filter
 dependencies[] = prepopulate
 dependencies[] = restws
+dependencies[] = restws_basic_auth
 dependencies[] = scanner
 dependencies[] = strongarm
 dependencies[] = tipsy
@@ -98,6 +110,8 @@ dependencies[] = uuid
 dependencies[] = book_touch
 dependencies[] = thumbnav
 dependencies[] = tinynav
+dependencies[] = addanother
+dependencies[] = jquery_update
 ; User interface
 dependencies[] = ckeditor_link
 dependencies[] = imce_wysiwyg
@@ -105,10 +119,16 @@ dependencies[] = lightbox2
 dependencies[] = wysiwyg
 dependencies[] = wysiwyg_template
 ; Views
+dependencies[] = editableviews
+dependencies[] = views_autocomplete_filters
 dependencies[] = views
 dependencies[] = views_bulk_operations
 dependencies[] = views_ui
 dependencies[] = views_xml_backend
+; Jammer
+dependencies[] = jammer
+dependencies[] = jammer_feed
+dependencies[] = jammer_feed_icon
 ; CIS
 dependencies[] = cis_connector
 dependencies[] = cis_service_connection
