@@ -48,7 +48,9 @@ dependencies[] = field_group
 dependencies[] = link
 dependencies[] = select_or_other
 dependencies[] = entityreference
+dependencies[] = entityreference_dynamicselect_widget
 dependencies[] = entityreference_prepopulate
+dependencies[] = dynamic_select
 ; Input filters
 dependencies[] = typogrify
 dependencies[] = video_filter
@@ -71,6 +73,7 @@ dependencies[] = og_ui
 ; Image
 dependencies[] = smartcrop
 ; Other
+dependencies[] = menu_breadcrumb
 dependencies[] = entity_token
 dependencies[] = imagefield_crop
 dependencies[] = jquery_colorpicker
