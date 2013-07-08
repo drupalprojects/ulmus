@@ -1,0 +1,31 @@
+; ulmus make file for local development
+core = "7.x"
+api = "2"
+
+projects[drupal][version] = "7.x"
+; include the d.o. profile base
+includes[] = "drupal-org.make"
+
+; +++++ Libraries +++++
+
+; Profiler
+libraries[profiler][directory_name] = "profiler"
+libraries[profiler][type] = "library"
+libraries[profiler][destination] = "../../profiles/ulmus/libraries"
+libraries[profiler][download][type] = "get"
+libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.x-dev.tar.gz"
+
+; FitVids
+libraries[fitvids][directory_name] = "fitvids"
+libraries[fitvids][type] = "library"
+libraries[fitvids][destination] = "libraries"
+libraries[fitvids][download][type] = "get"
+libraries[fitvids][download][url] = "https://raw.github.com/davatron5000/FitVids.js/master/jquery.fitvids.js"
+
+; ulmus
+libraries[ulmus][directory_name] = "ulmus"
+libraries[ulmus][type] = "profile"
+libraries[ulmus][destination] = "../../profiles"
+libraries[ulmus][download][type] = "get"
+libraries[ulmus][download][url] = "http://ftp.drupal.org/files/projects/ulmus-7.x-1.x-dev.tar.gz"
+

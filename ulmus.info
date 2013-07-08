@@ -1,6 +1,7 @@
+; Packaging information for ulmus
 name = "Ulmus"
-description = "Base modules needed to build a new distribution for an ELMS network."
-core = 7.x
+description = "ELMS Learning Network base distro for building distros"
+core = "7.x"
 ; ----------
 ; Dependencies
 ; ----------
@@ -11,6 +12,9 @@ dependencies[] = admin_theme
 ; Advanced CSS/JS Aggregation
 dependencies[] = advagg
 dependencies[] = advagg_bundler
+; CIS
+dependencies[] = cis_connector
+dependencies[] = cis_service_connection
 ; Chaos tool suite
 dependencies[] = ctools
 ; Context
@@ -24,39 +28,45 @@ dependencies[] = contextual
 dependencies[] = dblog
 dependencies[] = field
 dependencies[] = field_sql_storage
+dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = filter
+dependencies[] = image
 dependencies[] = list
 dependencies[] = menu
 dependencies[] = node
 dependencies[] = options
 dependencies[] = overlay
-dependencies[] = taxonomy
 dependencies[] = system
+dependencies[] = taxonomy
 dependencies[] = text
 dependencies[] = update
 dependencies[] = user
-; Entity
-dependencies[] = replicate
 ; Date/Time
 dependencies[] = date
 dependencies[] = date_api
+; Entity
+dependencies[] = replicate
 ; Fields
-dependencies[] = field_group
-dependencies[] = link
-dependencies[] = select_or_other
 dependencies[] = entityreference
 dependencies[] = entityreference_dynamicselect_widget
 dependencies[] = entityreference_prepopulate
-dependencies[] = dynamic_select
+dependencies[] = field_group
+dependencies[] = link
+dependencies[] = select_or_other
+; Image
+dependencies[] = smartcrop
 ; Input filters
 dependencies[] = typogrify
 dependencies[] = video_filter
+; Jammer
+dependencies[] = jammer
+dependencies[] = jammer_feed
+dependencies[] = jammer_feed_icon
 ; Learning Tools Interoperability
 dependencies[] = lti_tool_provider
 dependencies[] = lti_tool_provider_og
 ; Media
-dependencies[] = plup
 dependencies[] = imce
 dependencies[] = imce_crop
 dependencies[] = imce_mkdir
@@ -68,24 +78,23 @@ dependencies[] = og_access
 dependencies[] = og_clone
 dependencies[] = og_context
 dependencies[] = og_ui
-; Image
-dependencies[] = smartcrop
 ; Other
-dependencies[] = menu_breadcrumb
-dependencies[] = entity_token
-dependencies[] = imagefield_crop
-dependencies[] = jquery_colorpicker
-dependencies[] = unique_field
 dependencies[] = better_formats
 dependencies[] = boxes
 dependencies[] = clone
 dependencies[] = diff
+dependencies[] = dynamic_select
 dependencies[] = entity
+dependencies[] = entity_token
 dependencies[] = fitvids
+dependencies[] = imagefield_crop
 dependencies[] = job_scheduler
+dependencies[] = jquery_colorpicker
 dependencies[] = libraries
 dependencies[] = masquerade
+dependencies[] = menu_breadcrumb
 dependencies[] = module_filter
+dependencies[] = plup
 dependencies[] = prepopulate
 dependencies[] = restws
 dependencies[] = restws_basic_auth
@@ -94,6 +103,7 @@ dependencies[] = strongarm
 dependencies[] = tipsy
 dependencies[] = token
 dependencies[] = transliteration
+dependencies[] = unique_field
 ; Performance and scalability
 dependencies[] = entitycache
 ; Regions
@@ -102,38 +112,32 @@ dependencies[] = regions_admin_left
 dependencies[] = regions_right_slideout
 ; Textbook
 dependencies[] = textbook
+; Theme Tools
+dependencies[] = delta_blocks
 ; UUID
 dependencies[] = uuid
-; User Interface
-dependencies[] = addanother
-dependencies[] = jquery_update
 ; User interface
+dependencies[] = addanother
 dependencies[] = ckeditor_link
 dependencies[] = imce_wysiwyg
+dependencies[] = jquery_update
 dependencies[] = lightbox2
 dependencies[] = wysiwyg
 dependencies[] = wysiwyg_template
 ; Views
 dependencies[] = editableviews
-dependencies[] = views_autocomplete_filters
 dependencies[] = views
+dependencies[] = views_autocomplete_filters
 dependencies[] = views_bulk_operations
 dependencies[] = views_ui
 dependencies[] = views_xml_backend
-; Jammer
-dependencies[] = jammer
-dependencies[] = jammer_feed
-dependencies[] = jammer_feed_icon
-; CIS
-dependencies[] = cis_connector
-dependencies[] = cis_service_connection
 ; Features
 dependencies[] = features
 dependencies[] = cis_section
 dependencies[] = cis_service_connection_ux
-dependencies[] = cis_service_lti
 dependencies[] = cis_service_roles
 dependencies[] = features_override
 dependencies[] = regions_admin_example
 dependencies[] = textbook_editor
 dependencies[] = textbook_templates
+
