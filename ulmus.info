@@ -15,12 +15,10 @@ dependencies[] = advagg_bundler
 dependencies[] = ctools
 ; Context
 dependencies[] = context
-dependencies[] = context_condition_theme
 dependencies[] = context_ui
 dependencies[] = joyride
 ; Core
 dependencies[] = block
-dependencies[] = book
 dependencies[] = color
 dependencies[] = contextual
 dependencies[] = dblog
@@ -104,15 +102,9 @@ dependencies[] = regions_admin_left
 dependencies[] = regions_right_slideout
 ; Textbook
 dependencies[] = textbook
-; Theme Tools
-dependencies[] = delta
-dependencies[] = delta_blocks
 ; UUID
 dependencies[] = uuid
 ; User Interface
-dependencies[] = book_touch
-dependencies[] = thumbnav
-dependencies[] = tinynav
 dependencies[] = addanother
 dependencies[] = jquery_update
 ; User interface
