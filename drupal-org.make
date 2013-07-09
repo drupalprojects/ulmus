@@ -166,9 +166,6 @@ projects[regions][subdir] = "contrib"
 projects[textbook][version] = "1.0-rc2"
 projects[textbook][subdir] = "contrib"
 
-projects[delta][version] = "3.0-beta11"
-projects[delta][subdir] = "contrib"
-
 projects[uuid][version] = "1.0-alpha4"
 projects[uuid][subdir] = "contrib"
 
