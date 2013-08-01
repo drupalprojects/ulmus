@@ -103,7 +103,7 @@ projects[entity][subdir] = "contrib"
 projects[entityreference_dynamicselect_widget][version] = "1.0"
 projects[entityreference_dynamicselect_widget][subdir] = "contrib"
 
-projects[fitvids][version] = "1.10"
+projects[fitvids][version] = "1.12"
 projects[fitvids][subdir] = "contrib"
 
 projects[imagefield_crop][version] = "1.1"
@@ -166,7 +166,7 @@ projects[regions][subdir] = "contrib"
 projects[textbook][version] = "1.0-rc2"
 projects[textbook][subdir] = "contrib"
 
-projects[uuid][version] = "1.0-alpha4"
+projects[uuid][version] = "1.0-alpha5"
 projects[uuid][subdir] = "contrib"
 
 projects[addanother][version] = "2.1"
@@ -207,6 +207,10 @@ projects[views_xml_backend][subdir] = "contrib"
 
 projects[cis_connector][version] = "1.x-dev"
 projects[cis_connector][subdir] = "contrib"
+
+projects[httprl][version] = "1.12"
+projects[httprl][subdir] = "contrib"
+
 
 ; +++++ Libraries +++++
 

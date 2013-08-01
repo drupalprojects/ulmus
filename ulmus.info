@@ -79,6 +79,7 @@ dependencies[] = og_clone
 dependencies[] = og_context
 dependencies[] = og_ui
 ; Other
+dependencies[] = httprl
 dependencies[] = better_formats
 dependencies[] = boxes
 dependencies[] = clone
