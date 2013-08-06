@@ -15,13 +15,6 @@ libraries[profiler][destination] = "../../profiles/ulmus/libraries"
 libraries[profiler][download][type] = "get"
 libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.x-dev.tar.gz"
 
-; FitVids
-libraries[fitvids][directory_name] = "fitvids"
-libraries[fitvids][type] = "library"
-libraries[fitvids][destination] = "libraries"
-libraries[fitvids][download][type] = "get"
-libraries[fitvids][download][url] = "https://raw.github.com/davatron5000/FitVids.js/master/jquery.fitvids.js"
-
 ; ulmus
 libraries[ulmus][directory_name] = "ulmus"
 libraries[ulmus][type] = "profile"

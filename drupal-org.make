@@ -10,13 +10,13 @@ projects[admin_menu][subdir] = "contrib"
 projects[admin_theme][version] = "1.0"
 projects[admin_theme][subdir] = "contrib"
 
-projects[advagg][version] = "2.0-beta1"
+projects[advagg][version] = "2.0-rc1"
 projects[advagg][subdir] = "contrib"
 
 projects[ctools][version] = "1.3"
 projects[ctools][subdir] = "contrib"
 
-projects[context][version] = "3.0-beta6"
+projects[context][version] = "3.0-beta7"
 projects[context][subdir] = "contrib"
 
 projects[joyride][version] = "1.0-alpha2"
@@ -31,10 +31,10 @@ projects[profiler_builder][subdir] = "contrib"
 projects[replicate][version] = "1.0"
 projects[replicate][subdir] = "contrib"
 
-projects[features][version] = "2.0-rc1"
+projects[features][version] = "2.0-rc2"
 projects[features][subdir] = "contrib"
 
-projects[features_override][version] = "2.0-beta2"
+projects[features_override][version] = "2.0-beta3"
 projects[features_override][subdir] = "contrib"
 
 projects[entityreference][version] = "1.0"
@@ -121,7 +121,7 @@ projects[libraries][subdir] = "contrib"
 projects[masquerade][version] = "1.0-rc5"
 projects[masquerade][subdir] = "contrib"
 
-projects[menu_breadcrumb][version] = "1.3"
+projects[menu_breadcrumb][version] = "1.4"
 projects[menu_breadcrumb][subdir] = "contrib"
 
 projects[module_filter][version] = "1.7"
@@ -136,7 +136,7 @@ projects[plup][subdir] = "contrib"
 projects[prepopulate][version] = "2.x-dev"
 projects[prepopulate][subdir] = "contrib"
 
-projects[restws][version] = "2.0-alpha5"
+projects[restws][version] = "2.0"
 projects[restws][subdir] = "contrib"
 
 projects[scanner][version] = "1.x-dev"
@@ -196,7 +196,7 @@ projects[editableviews][subdir] = "contrib"
 projects[views][version] = "3.7"
 projects[views][subdir] = "contrib"
 
-projects[views_autocomplete_filters][version] = "1.0-rc1"
+projects[views_autocomplete_filters][version] = "1.0"
 projects[views_autocomplete_filters][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.1"
@@ -228,6 +228,13 @@ libraries[ckeditor][destination] = "libraries"
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6.1/ckeditor_3.6.6.1.tar.gz"
 
+; FitVids
+libraries[fitvids][directory_name] = "fitvids"
+libraries[fitvids][type] = "library"
+libraries[fitvids][destination] = "libraries"
+libraries[fitvids][download][type] = "get"
+libraries[fitvids][download][url] = "https://raw.github.com/davatron5000/FitVids.js/master/jquery.fitvids.js"
+
 ; jQuery Colorpicker
 libraries[colorpicker][directory_name] = "colorpicker"
 libraries[colorpicker][type] = "library"
@@ -249,3 +256,14 @@ libraries[oauth][destination] = "libraries"
 libraries[oauth][download][type] = "get"
 libraries[oauth][download][url] = "https://github.com/juampy72/OAuth-PHP/archive/master.zip"
 
+
+; +++++ Patches +++++
+
+; ignore menu item cloning
+projects[og_clone][patch][] = "http://drupal.org/files/og_clone-menu-cloning-none-1940982-1.patch"
+
+; allow for altering the list of items to clone
+projects[og_clone][patch][] = "http://drupal.org/files/og_clone-item-id-alter-1941054-1.patch"
+
+; allow for custom meta controllers to enable deep querying
+projects[restws][patch][] = "http://drupal.org/files/restws_meta_controls-2053147-1.patch"
