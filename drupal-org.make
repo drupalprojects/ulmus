@@ -52,7 +52,7 @@ projects[field_group][subdir] = "contrib"
 projects[link][version] = "1.1"
 projects[link][subdir] = "contrib"
 
-projects[select_or_other][version] = "2.18"
+projects[select_or_other][version] = "2.19"
 projects[select_or_other][subdir] = "contrib"
 
 projects[smartcrop][version] = "1.0-beta2"
@@ -82,7 +82,7 @@ projects[imce_mkdir][subdir] = "contrib"
 projects[nodeformcols][version] = "1.x-dev"
 projects[nodeformcols][subdir] = "contrib"
 
-projects[og][version] = "2.2"
+projects[og][version] = "2.3"
 projects[og][subdir] = "contrib"
 
 projects[og_clone][version] = "1.x-dev"
@@ -124,7 +124,7 @@ projects[masquerade][subdir] = "contrib"
 projects[menu_breadcrumb][version] = "1.4"
 projects[menu_breadcrumb][subdir] = "contrib"
 
-projects[module_filter][version] = "1.7"
+projects[module_filter][version] = "1.8"
 projects[module_filter][subdir] = "contrib"
 
 projects[node_clone][version] = "1.0-rc1"
@@ -136,7 +136,7 @@ projects[plup][subdir] = "contrib"
 projects[prepopulate][version] = "2.x-dev"
 projects[prepopulate][subdir] = "contrib"
 
-projects[restws][version] = "2.0"
+projects[restws][version] = "2.1"
 projects[restws][subdir] = "contrib"
 
 projects[scanner][version] = "1.x-dev"
@@ -163,7 +163,7 @@ projects[entitycache][subdir] = "contrib"
 projects[regions][version] = "1.x-dev"
 projects[regions][subdir] = "contrib"
 
-projects[textbook][version] = "1.0-rc2"
+projects[textbook][version] = "1.0"
 projects[textbook][subdir] = "contrib"
 
 projects[uuid][version] = "1.0-alpha5"
