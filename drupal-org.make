@@ -10,7 +10,7 @@ projects[admin_menu][subdir] = "contrib"
 projects[admin_theme][version] = "1.0"
 projects[admin_theme][subdir] = "contrib"
 
-projects[advagg][version] = "2.0-rc1"
+projects[advagg][version] = "2.0-rc3"
 projects[advagg][subdir] = "contrib"
 
 projects[ctools][version] = "1.3"
@@ -19,7 +19,7 @@ projects[ctools][subdir] = "contrib"
 projects[context][version] = "3.0-beta7"
 projects[context][subdir] = "contrib"
 
-projects[joyride][version] = "1.0-alpha2"
+projects[joyride][version] = "1.0-alpha3"
 projects[joyride][subdir] = "contrib"
 
 projects[date][version] = "2.6"
@@ -31,7 +31,7 @@ projects[profiler_builder][subdir] = "contrib"
 projects[replicate][version] = "1.0"
 projects[replicate][subdir] = "contrib"
 
-projects[features][version] = "2.0-rc2"
+projects[features][version] = "2.0-rc3"
 projects[features][subdir] = "contrib"
 
 projects[features_override][version] = "2.0-beta3"
@@ -46,13 +46,13 @@ projects[entityreference_dynamicselect_widget][subdir] = "contrib"
 projects[entityreference_prepopulate][version] = "1.3"
 projects[entityreference_prepopulate][subdir] = "contrib"
 
-projects[field_group][version] = "1.1"
+projects[field_group][version] = "1.2"
 projects[field_group][subdir] = "contrib"
 
 projects[link][version] = "1.1"
 projects[link][subdir] = "contrib"
 
-projects[select_or_other][version] = "2.19"
+projects[select_or_other][version] = "2.20"
 projects[select_or_other][subdir] = "contrib"
 
 projects[smartcrop][version] = "1.0-beta2"
@@ -97,13 +97,13 @@ projects[boxes][subdir] = "contrib"
 projects[diff][version] = "3.2"
 projects[diff][subdir] = "contrib"
 
-projects[entity][version] = "1.1"
+projects[entity][version] = "1.2"
 projects[entity][subdir] = "contrib"
 
 projects[entityreference_dynamicselect_widget][version] = "1.0"
 projects[entityreference_dynamicselect_widget][subdir] = "contrib"
 
-projects[fitvids][version] = "1.12"
+projects[fitvids][version] = "1.14"
 projects[fitvids][subdir] = "contrib"
 
 projects[imagefield_crop][version] = "1.1"
