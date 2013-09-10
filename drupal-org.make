@@ -187,8 +187,10 @@ projects[lightbox2][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
 projects[wysiwyg][subdir] = "contrib"
 
-projects[wysiwyg_template][version] = "2.x-dev"
 projects[wysiwyg_template][subdir] = "contrib"
+projects[wysiwyg_template][type] = "module"
+projects[wysiwyg_template][download][type] = "git"
+projects[wysiwyg_template][download][branch] = "7.x-2.x"
 
 projects[editableviews][version] = "1.0-beta6"
 projects[editableviews][subdir] = "contrib"
