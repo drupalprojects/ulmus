@@ -19,9 +19,6 @@ projects[ctools][subdir] = "contrib"
 projects[context][version] = "3.0-beta7"
 projects[context][subdir] = "contrib"
 
-projects[joyride][version] = "1.0-alpha3"
-projects[joyride][subdir] = "contrib"
-
 projects[date][version] = "2.6"
 projects[date][subdir] = "contrib"
 
@@ -58,7 +55,7 @@ projects[select_or_other][subdir] = "contrib"
 projects[smartcrop][version] = "1.0-beta2"
 projects[smartcrop][subdir] = "contrib"
 
-projects[typogrify][version] = "1.0-rc6"
+projects[typogrify][version] = "1.0-rc7"
 projects[typogrify][subdir] = "contrib"
 
 projects[video_filter][version] = "3.1"
@@ -243,13 +240,6 @@ libraries[colorpicker][type] = "library"
 libraries[colorpicker][destination] = "libraries"
 libraries[colorpicker][download][type] = "get"
 libraries[colorpicker][download][url] = "http://www.eyecon.ro/colorpicker/colorpicker.zip"
-
-; jQuery Joyride
-libraries[joyride][directory_name] = "joyride"
-libraries[joyride][type] = "library"
-libraries[joyride][destination] = "libraries"
-libraries[joyride][download][type] = "get"
-libraries[joyride][download][url] = "https://github.com/zurb/joyride/archive/v2.0.3.tar.gz"
 
 ; OAuth Drupal fork
 libraries[oauth][directory_name] = "oauth"
