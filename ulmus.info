@@ -1,141 +1,31 @@
 ; Packaging information for ulmus
 name = "Ulmus"
-description = "ELMS Learning Network base distro for building distros"
+description = "Meta distro that helps ensure basline module set in all ELMSLN systems. This is not required but more or less is for most tools in the network to automatically be setup and make sense."
 core = "7.x"
 ; ----------
 ; Dependencies
 ; ----------
-; Administration
-dependencies[] = admin_menu
-dependencies[] = admin_menu_toolbar
-dependencies[] = admin_theme
-; Advanced CSS/JS Aggregation
-dependencies[] = advagg
-dependencies[] = advagg_bundler
 ; CIS
 dependencies[] = cis_connector
 dependencies[] = cis_service_connection
-; Chaos tool suite
-dependencies[] = ctools
-; Context
-dependencies[] = context
-dependencies[] = context_ui
-dependencies[] = joyride
-; Core
-dependencies[] = block
-dependencies[] = color
-dependencies[] = contextual
-dependencies[] = dblog
-dependencies[] = field
-dependencies[] = field_sql_storage
-dependencies[] = field_ui
-dependencies[] = file
-dependencies[] = filter
-dependencies[] = image
-dependencies[] = list
-dependencies[] = menu
-dependencies[] = node
-dependencies[] = options
-dependencies[] = overlay
-dependencies[] = system
-dependencies[] = taxonomy
-dependencies[] = text
-dependencies[] = update
-dependencies[] = user
-; Date/Time
-dependencies[] = date
-dependencies[] = date_api
-; Entity
-dependencies[] = replicate
-; Fields
-dependencies[] = entityreference
-dependencies[] = entityreference_dynamicselect_widget
-dependencies[] = entityreference_prepopulate
-dependencies[] = field_group
-dependencies[] = link
-dependencies[] = select_or_other
-; Image
-dependencies[] = smartcrop
-; Input filters
-dependencies[] = typogrify
-dependencies[] = video_filter
-; Jammer
-dependencies[] = jammer
-dependencies[] = jammer_feed
-dependencies[] = jammer_feed_icon
-; Learning Tools Interoperability
-dependencies[] = lti_tool_provider
-dependencies[] = lti_tool_provider_og
-; Media
-dependencies[] = imce
-dependencies[] = imce_crop
-dependencies[] = imce_mkdir
-; Node form columns
-dependencies[] = nodeformcols
-; Organic groups
+; OG
 dependencies[] = og
 dependencies[] = og_access
-dependencies[] = og_clone
 dependencies[] = og_context
 dependencies[] = og_ui
 ; Other
 dependencies[] = httprl
-dependencies[] = better_formats
-dependencies[] = boxes
-dependencies[] = clone
-dependencies[] = diff
-dependencies[] = dynamic_select
 dependencies[] = entity
 dependencies[] = entity_token
-dependencies[] = fitvids
-dependencies[] = imagefield_crop
-dependencies[] = job_scheduler
-dependencies[] = jquery_colorpicker
 dependencies[] = libraries
-dependencies[] = masquerade
-dependencies[] = menu_breadcrumb
-dependencies[] = module_filter
-dependencies[] = plup
-dependencies[] = prepopulate
 dependencies[] = restws
 dependencies[] = restws_basic_auth
-dependencies[] = scanner
 dependencies[] = strongarm
-dependencies[] = tipsy
 dependencies[] = token
-dependencies[] = transliteration
-dependencies[] = unique_field
-; Performance and scalability
-dependencies[] = entitycache
-; Regions
-dependencies[] = regions
-dependencies[] = regions_admin_left
-; Textbook
-dependencies[] = textbook
 ; UUID
 dependencies[] = uuid
-; User interface
-dependencies[] = addanother
-dependencies[] = ckeditor_link
-dependencies[] = imce_wysiwyg
-dependencies[] = jquery_update
-dependencies[] = lightbox2
-dependencies[] = wysiwyg
-dependencies[] = wysiwyg_template
-; Views
-dependencies[] = editableviews
-dependencies[] = views
-dependencies[] = views_autocomplete_filters
-dependencies[] = views_bulk_operations
-dependencies[] = views_ui
-dependencies[] = views_xml_backend
 ; Features
-dependencies[] = features
 dependencies[] = cis_section
 dependencies[] = cis_service_lti
 dependencies[] = cis_service_connection_ux
 dependencies[] = cis_service_roles
-dependencies[] = features_override
-dependencies[] = regions_admin_example
-dependencies[] = textbook_editor
-dependencies[] = textbook_templates

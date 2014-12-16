@@ -4,25 +4,30 @@ api = "2"
 
 projects[drupal][version] = "7.x"
 ; include the d.o. profile base
+includes[] = "drupal-org-core.make"
 includes[] = "drupal-org.make"
 
-; joyride is making packaging script angry
-projects[joyride][version] = "1.0-alpha3"
-projects[joyride][subdir] = "contrib"
+projects[textbook][version] = "4.0-beta1"
+projects[textbook][subdir] = "contrib"
 
 ; +++++ Libraries +++++
 
-; Profiler
-libraries[profiler][directory_name] = "profiler"
-libraries[profiler][type] = "library"
-libraries[profiler][destination] = "../../profiles/ulmus/libraries"
-libraries[profiler][download][type] = "get"
-libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.x-dev.tar.gz"
+; jwerty
+libraries[jwerty][directory_name] = "jwerty"
+libraries[jwerty][type] = "library"
+libraries[jwerty][destination] = "libraries"
+libraries[jwerty][download][type] = "get"
+libraries[jwerty][download][url] = "http://github.com/keithamus/jwerty/tarball/master"
 
-; ulmus
+; mooc
 libraries[ulmus][directory_name] = "ulmus"
 libraries[ulmus][type] = "profile"
 libraries[ulmus][destination] = "../../profiles"
 libraries[ulmus][download][type] = "get"
-libraries[ulmus][download][url] = "http://ftp.drupal.org/files/projects/ulmus-7.x-1.x-dev.tar.gz"
+libraries[ulmus][download][url] = "http://ftp.drupal.org/files/projects/ulmus-7.x-1.x-dev-core.tar.gz"
 
+; ckeditor 4.2 + codemirror and table resize
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://github.com/btopro/ckeditor4textbook/archive/2.1.zip"
+libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][destination] = "libraries"
