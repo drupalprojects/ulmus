@@ -107,14 +107,10 @@ function ulmus_install() {
   menu_rebuild();
   // revert features to ensure they are all installed
   $features = array(
-    'cis_section',
     'cis_service_roles',
   );
 
   features_revert($features);
-
-    // add in a master section
-  _cis_section_make_default_section();
 
   // ignore any rebuild messages
   node_access_needs_rebuild(FALSE);
