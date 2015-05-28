@@ -5,6 +5,7 @@
  * Perform actions to set up the site for this profile.
  */
 function ulmus_install() {
+  // load the installer inlcude file
   module_load_include('inc', 'cis_connector', 'includes/elmsln.install');
   // do some initial clean up from the install
   _elmsln_installer_preflight();
