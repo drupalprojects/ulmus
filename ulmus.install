@@ -10,7 +10,7 @@ function ulmus_install() {
   // do some initial clean up from the install
   _elmsln_installer_preflight();
   // to standard theme routine
-  _elmsln_installer_theme('foundation_access');
+  _elmsln_installer_theme('SUB_foundation_access');
   // establish admin role
   _elmsln_installer_admin_role();
   // standard clean up
